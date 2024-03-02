@@ -51,7 +51,6 @@ class _CubitCounterView extends StatelessWidget {
           //buildWhen: (previous, current) => current.counter != previous.counter,
           //* builder ya tenemos acceso al state
           builder: (context, state) {
-            print('Estado cambio!');
             return Center(
               child: Text('Conuter Value: ${state.counter}'),
             );
